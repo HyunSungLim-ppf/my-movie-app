@@ -1,0 +1,67 @@
+.home_container{
+    position: relative;
+}
+/* Home contents */
+.home_contents{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(0, -50%);
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    gap: 1vw;
+}
+.home_contents img{
+    width: 30vw;
+}
+.home_contents h1{
+    font-size: 3vw;
+}
+.home_contents p{
+    font-size: 1.5vw;
+}
+.home_contents a{
+    text-decoration: none;
+    background-color: #fff;
+    width: min-content;
+    text-wrap: nowrap;
+    padding: 0.5vw 1.5vw;
+    font-size: 1.5vw;
+    font-weight: 550;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3rem;
+    transition: all 0.3s linear;
+}
+.home_contents a:hover{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+/* Swiper */
+.slider1{
+    width: 100vw;
+    height: 90vh;
+    /* background-image: url("https://cdn.pixabay.com/photo/2024/02/14/16/53/night-8573855_1280.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider2{
+    width: 100vw;
+    height: 90vh;background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider3{
+    width: 100vw;
+    height: 90vh;background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider4{
+    width: 100vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

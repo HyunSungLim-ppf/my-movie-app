@@ -1,0 +1,24 @@
+.genreBtnList_container{
+    display: flex;
+    height: 90vh;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url("https://cdn.pixabay.com/photo/2020/04/20/18/10/cinema-5069314_1280.jpg"); */
+}
+
+.genreBtnList_container .btn_list{
+    width: 50%;
+    height: 50vh;
+    padding: 20px;
+    margin: auto auto;
+    display: flex;
+    /* gap: 2rem; */
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px #fff;
+}

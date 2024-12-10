@@ -1,0 +1,32 @@
+/* New Movie Card */
+.new_movie_card{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 1rem;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.new_movie_card img{
+    width: 80%;
+}
+.new_movie_card h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.new_movie_card a{
+    width: max-content;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25vw;
+    font-weight: 550;
+    border-radius: 3rem;
+    border: 2px solid #fff;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s ease-in-out;
+}
